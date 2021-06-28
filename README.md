@@ -9,7 +9,7 @@ This is my first attempt at using webdriverio for testing. I utilized WebdriverI
 1. Clone the repository or download zip file to you computer.
 
 ```
-    git clone https://github.com/dionisggr/saucedemo.git
+    git clone https://github.com/Github-Rhodes/webdriverio_test_automation.git
 ```
 
 2. In your terminal install node dependencies:
