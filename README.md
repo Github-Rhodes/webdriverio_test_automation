@@ -1,6 +1,6 @@
-# WedriverIo setup to run an automated api test.
+# WedriverIO setup to run an automated api test.
 
-My first attempt at using webdriverio. I utilized WebdriverIO, Supertest, Mocha, Chromedriver & Chai to build the automation.
+This is my first attempt at using webdriverio for testing. I utilized WebdriverIO, Supertest, Mocha, Chromedriver & Chai to build the automation.
 
 ---
 
@@ -51,25 +51,3 @@ My first attempt at using webdriverio. I utilized WebdriverIO, Supertest, Mocha,
 
 I was unable to completed the UI Automation in the alloted time. I will continue to work towards completing this task.
 I want to integrate and utilize Cumcumber.js and Docker.
-
-### Automation
-
-- API Automation
-  - Make GET, POST, PUT, and DELETE calls
-  - Set headers for a request
-  - Set the body for a request
-  - Assert the response from a request
-  - Use the response from one call in the request for another
-- UI Automation
-  - Log into the site with credentials
-
-Sort the items (Lowest Price sort)
-Add two or more items to the shopping cart
-Visit the shopping cart
-Assert that the items that you added are in the cart
-Remove an item and then continue shopping
-Add another item
-Checkout
-Assert you are purchasing the correct items
-Assert the total price
-Finish checkout
