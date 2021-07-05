@@ -6,35 +6,15 @@ This is my first attempt at using webdriverio for testing. I utilized WebdriverI
 
 ## How to Setup and Operate
 
-1. Clone the repository or download zip file to you computer.
+1. Clone the repository or download zip file to you computer: git clone https://github.com/Github-Rhodes/webdriverio_test_automation.git
 
-```
-    git clone https://github.com/Github-Rhodes/webdriverio_test_automation.git
-```
+2. In your terminal install node dependencies: npm install
 
-2. In your terminal install node dependencies:
+3. If there are npm discrepancies run audit and enter: npm audit fix
 
-```
-    npm install
-```
+4. To run the UI automation test enter: npx wdio
 
-3. If there are npm discrepancies run audit and enter:
-
-```
-    npm audit fix
-```
-
-4. To run the UI automation test enter:
-
-```
-    npx wdio wdio.conf.js or npx wdio
-```
-
-5. To run the API automation test enter:
-
-```
-    npm run test
-```
+5. To run the API automation test enter: npm run test
 
 ### Automation
 
@@ -47,7 +27,13 @@ This is my first attempt at using webdriverio for testing. I utilized WebdriverI
 - UI Automation
   - Log into the site with credentials
 
-## Stretch Goals
+### Stretch Goals
 
 I was unable to completed the UI Automation in the alloted time. I will continue to work towards completing this task.
 I want to integrate and utilize Cumcumber.js and Docker.
+
+### References For Help
+
+https://hackernoon.com/api-testing-using-supertest-1f830ce838f1
+
+https://willi.am/blog/2014/07/28/test-your-api-with-supertest/
