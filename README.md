@@ -6,15 +6,15 @@ This is my first attempt at using webdriverio for testing. I utilized WebdriverI
 
 ## How to Setup and Operate
 
-1. Clone the repository or download zip file to you computer: git clone https://github.com/Github-Rhodes/webdriverio_test_automation.git
+1. Clone the repository or download zip file to you computer.
 
-2. In your terminal install node dependencies: npm install
+2. In your terminal install node dependencies: npm install.
 
-3. If there are npm discrepancies run audit and enter: npm audit fix
+3. If there are npm discrepancies run audit and enter: npm audit fix.
 
-4. To run the UI automation test enter: npx wdio
+4. To run the UI automation test enter: npx wdio.
 
-5. To run the API automation test enter: npm run test
+5. To run the API automation test enter: npm run test.
 
 ### Automation
 
